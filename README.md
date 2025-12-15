@@ -19,17 +19,13 @@ Key Features:
 - Historical pricing data
 
 Installation and Setup
-
-1. Clone the repository:
-git clone https://github.com/imane0x/Dynamic-Pricing
-
-2. Install the required dependencies:
+1. Install the required dependencies:
 pip install -r requirements.txt
 
-3. Train the model:
+2. Train the model:
 python main.py
 
-4. Build and run the Docker container:
+3. Build and run the Docker container:
 docker build -t dynamic-pricing .
 docker run -p 8000:8000 dynamic-pricing
 
